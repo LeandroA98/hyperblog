@@ -1,5 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    color: aqua;
+    color: #333;
     text-align: center;
     font-family: "Arial";
+    font-size: 16px;
+    margin: o;
+    padding: 0;
+}
+
+#container {
+    width: 70%;
+    text-align: left;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#container h1 {
+    font-size: 20px;
 }
